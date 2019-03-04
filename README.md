@@ -130,6 +130,11 @@ Bludit merupakan sebuah CMS (Content Management System) yang digunakan untuk mem
 11. Buka http://localhost:8888 untuk menginstall bludit, kemudian akan diarahkan ke halaman instalasi Bludit seperti gambar dibawah. Pilih Bahasa yang diinginkan.
 <img src="https://raw.githubusercontent.com/adeliyay/bludit/master/Screenshot/41.PNG"></img>
 
+12. Kemudian buat *password* untuk admin.
+<img src="https://raw.githubusercontent.com/adeliyay/bludit/master/Screenshot/42.PNG"></img>
+
+13. Instalasi selesai
+
 
 # Konfigurasi
 - Konfigurasi Apache2
@@ -171,3 +176,4 @@ Bludit merupakan sebuah CMS (Content Management System) yang digunakan untuk mem
 1. Akses Bludit melalui localhost anda dengan masuk ke localhost:8888
 
 2. Login dengan akun anda.
+<img src="https://raw.githubusercontent.com/adeliyay/bludit/master/Screenshot/42.PNG"></img>
