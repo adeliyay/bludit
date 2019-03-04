@@ -90,8 +90,8 @@ Bludit merupakan sebuah CMS (Content Management System) yang digunakan untuk mem
   <VirtualHost *:80>
      ServerAdmin admin@example.com
      DocumentRoot /var/www/html/bludit/
-     ServerName example.com
-     ServerAlias www.example.com
+     ServerName localhost:8888
+     ServerAlias localhost:8888
 
      <Directory /var/www/html/bludit/>
           Options FollowSymlinks
