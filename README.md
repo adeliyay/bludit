@@ -76,7 +76,7 @@ Bludit merupakan sebuah CMS (Content Management System) yang digunakan untuk mem
 6. Lakukan update dan restart Apache2
   ```
   $ sudo apt-get update -y
-	$ sudo apt-get upgrade -y
+  $ sudo apt-get upgrade -y
   $ sudo systemctl restart apache2.service
   ```
    Kemudian bukalah http://localhost:8888/phpinfo.php maka akan muncul gambar seperti dibawah ini :
