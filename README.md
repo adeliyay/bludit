@@ -9,6 +9,7 @@
 
 # Sekilas Tentang
 Bludit merupakan sebuah CMS (Content Management System) yang digunakan untuk membuat blog pribadi dalam waktu singkat, bebas biaya dan open source. Bludit menggunakan flat-files untuk menyimpan kiriman dan halaman, tanpa perlu menginstall atau konfigurasi basisdata. Bludit mendukung kode Markdown dan HTML untuk konten kiriman dan halaman yang akan diposting. 
+
 # Instalasi 
 **Kebutuhan Sistem :**
 -   Ubuntu Server 18.04
@@ -127,3 +128,40 @@ Bludit merupakan sebuah CMS (Content Management System) yang digunakan untuk mem
   $ sudo systemctl restart apache2.service
   ```
 11. Buka http://localhost:8888 untuk menginstall bludit
+
+# Konfigurasi
+- Konfigurasi Apache2
+`$ sudo nano /etc/apache2/sites-available/bludit.conf`
+	
+	```
+	<VirtualHost *:80>
+     ServerAdmin admin@example.com
+     DocumentRoot /var/www/html/bludit/
+     ServerName localhost:8888
+     ServerAlias localhost:8888
+
+     <Directory /var/www/html/bludit/>
+          Options FollowSymlinks
+          AllowOverride All
+          Require all granted
+     </Directory>
+
+     ErrorLog ${APACHE_LOG_DIR}/error.log
+     CustomLog ${APACHE_LOG_DIR}/access.log combined
+    
+     <Directory /var/www/html/bludit/>
+            RewriteEngine on
+            RewriteBase /
+            RewriteCond %{REQUEST_FILENAME} !-f
+            RewriteRule ^(.*) index.php [PT,L]
+    </Directory>
+
+</VirtualHost>
+	```
+
+	```
+	$ sudo a2ensite bludit.conf
+	$ sudo a2enmod rewrite
+	$ sudo a2enmod proxy proxy_fcgi rewrite
+	$ sudo systemctl restart apache2.service
+	```
