@@ -135,28 +135,28 @@ Bludit merupakan sebuah CMS (Content Management System) yang digunakan untuk mem
 	
 	```
 	<VirtualHost *:80>
-     ServerAdmin admin@example.com
-     DocumentRoot /var/www/html/bludit/
-     ServerName localhost:8888
-     ServerAlias localhost:8888
+     		ServerAdmin admin@example.com
+     		DocumentRoot /var/www/html/bludit/
+     		ServerName localhost:8888
+     		ServerAlias localhost:8888
 
-     <Directory /var/www/html/bludit/>
-          Options FollowSymlinks
-          AllowOverride All
-          Require all granted
-     </Directory>
+     		<Directory /var/www/html/bludit/>
+          		Options FollowSymlinks
+          		AllowOverride All
+          		Require all granted
+     		</Directory>
 
-     ErrorLog ${APACHE_LOG_DIR}/error.log
-     CustomLog ${APACHE_LOG_DIR}/access.log combined
+     		ErrorLog ${APACHE_LOG_DIR}/error.log
+     		CustomLog ${APACHE_LOG_DIR}/access.log combined
     
-     <Directory /var/www/html/bludit/>
-            RewriteEngine on
-            RewriteBase /
-            RewriteCond %{REQUEST_FILENAME} !-f
-            RewriteRule ^(.*) index.php [PT,L]
-    </Directory>
+     		<Directory /var/www/html/bludit/>
+            		RewriteEngine on
+            		RewriteBase /
+            		RewriteCond %{REQUEST_FILENAME} !-f
+            		RewriteRule ^(.*) index.php [PT,L]
+    		</Directory>
 
-</VirtualHost>
+	</VirtualHost>
 	```
 
 	```
