@@ -1,9 +1,13 @@
-<div align="center"><img src="https://cdn.worldvectorlogo.com/logos/bludit.svg" width="350" height="400"></div>
+<h1 align="center"><img src="https://cdn.worldvectorlogo.com/logos/bludit.svg" width="350" height="400"></h1>
+
+[Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) | [Otomatisasi](#otomatisasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
+:---:|:---:|:---:|:---:|:---:|:---:|:---:
 
 <br/>
 <h1 align="center">BLUDIT</h1>
 <br/>
 
+# Sekilas Tentang
 # Aplikasi Web "Bludit" 
 Bludit merupakan sebuah CMS (Content Management System) yang digunakan untuk membuat blog pribadi dalam waktu singkat, bebas biaya dan open source. Bludit menggunakan flat-files untuk menyimpan kiriman dan halaman, tanpa perlu menginstall atau konfigurasi basisdata. Bludit mendukung kode Markdown dan HTML untuk konten kiriman dan halaman yang akan diposting. 
 # Instalasi 
