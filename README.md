@@ -176,4 +176,4 @@ Bludit merupakan sebuah CMS (Content Management System) yang digunakan untuk mem
 1. Akses Bludit melalui localhost anda dengan masuk ke localhost:8888
 
 2. Login dengan akun anda.
-<img src="https://raw.githubusercontent.com/adeliyay/bludit/master/Screenshot/42.PNG"></img>
+<img src="https://raw.githubusercontent.com/adeliyay/bludit/master/Screenshot/44.PNG"></img>
