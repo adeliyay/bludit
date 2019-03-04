@@ -1,3 +1,5 @@
+<h1 align="center"><img src="https://cdn.freebiesupply.com/logos/large/2x/bludit-logo-png-transparent.png"></h1>
+
 # Aplikasi Web "Bludit" 
 Bludit merupakan sebuah CMS (Content Management System) yang digunakan untuk membuat blog pribadi dalam waktu singkat, bebas biaya dan open source. Bludit menggunakan flat-files untuk menyimpan kiriman dan halaman, tanpa perlu menginstall atau konfigurasi basisdata. Bludit mendukung kode Markdown dan HTML untuk konten kiriman dan halaman yang akan diposting. 
 # Instalasi 
