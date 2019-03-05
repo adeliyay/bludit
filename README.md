@@ -59,7 +59,7 @@ Bludit merupakan sebuah CMS (Content Management System) yang digunakan untuk mem
   ```
   $ sudo nano /etc/php/7.2/apache2/php.ini
   ```
-     Ubah pengaturan seperti dibawah ini dan simpan
+   Ubah pengaturan seperti dibawah ini dan simpan
   ```
   file_uploads = On
   allow_url_fopen = On
