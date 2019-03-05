@@ -1,4 +1,4 @@
-<h1 align="center"><img src="https://cdn.worldvectorlogo.com/logos/bludit.svg" width="350" height="400"></h1>
+https://cdn.worldvectorlogo.com/logos/bludit.svg<h1 align="center"><img src="https://raw.githubusercontent.com/adeliyay/bludit/master/Screenshot/logo.png" width="350" height="400"></h1>
 
 [Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
 :---:|:---:|:---:|:---:|:---:|:---:
@@ -13,7 +13,7 @@ Bludit merupakan sebuah CMS (Content Management System) yang digunakan untuk mem
 # Instalasi 
 **Kebutuhan Sistem :**
 -   Ubuntu Server 18.04
--   Web Server Apache version 2.4 atau lebih
+-   Web Serverhttps://cdn.worldvectorlogo.com/logos/bludit.svg Apache version 2.4 atau lebih
 -   PHP 7.2
 -   php7.2-common, php7.2-mbstring, php7.2-xmlrpc, php7.2-soap, php7.2-gd, php7.2-xml, php7.2-cli, php7.2-curl
 -   Virtual Box
@@ -46,7 +46,7 @@ Bludit merupakan sebuah CMS (Content Management System) yang digunakan untuk mem
    
 5. Install PHP 7.2 dan modul lain yang diperlukan
   ```
-  $ sudo apt-get install software-properties-common
+  $ sudo apt-get install software-properties-commonhttps://cdn.worldvectorlogo.com/logos/bludit.svg
   $ sudo add-apt-repository ppa:ondrej/php
   $ sudo apt update
   $ sudo apt install php7.2 libapache2-mod-php7.2 php7.2-common php7.2-mbstring php7.2-xmlrpc php7.2-soap php7.2-gd php7.2-xml php7.2-cli php7.2-curl php7.2-zip
@@ -65,7 +65,7 @@ Bludit merupakan sebuah CMS (Content Management System) yang digunakan untuk mem
   max_execution_time = 360
   date.timezone = America/Chicago
 ```
-   Untuk memastikan PHP 7.2 telah terkoneksi dengan Apache2, buatlah phpinfo.php  
+   Untuk memastikan PHP 7.2 telah terkoneksi dengan Apache2, buatlah https://cdn.worldvectorlogo.com/logos/bludit.svgphpinfo.php  
   ```
   $sudo nano /var/www/html/phpinfo.php
   ```
@@ -106,7 +106,7 @@ Bludit merupakan sebuah CMS (Content Management System) yang digunakan untuk mem
      <Directory /var/www/html/bludit/>
           Options FollowSymlinks
           AllowOverride All
-          Require all granted
+          Require all grantedhttps://cdn.worldvectorlogo.com/logos/bludit.svg
      </Directory>
 
      ErrorLog ${APACHE_LOG_DIR}/error.log
