@@ -3,10 +3,6 @@
 [Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
 :---:|:---:|:---:|:---:|:---:|:---:
 
-<br/>
-<h1 align="center">BLUDIT</h1>
-<br/>
-
 # Aplikasi Web "Bludit"
 
 ## Sekilas Tentang
@@ -193,6 +189,31 @@ Untuk membuat konten baru, masuk ke halaman *dashboard* dengan cara klik `admin 
 3. Tampilan *dashboard* admin
 <img src="https://raw.githubusercontent.com/adeliyay/bludit/master/Screenshot/45.PNG"></img>
 
+4. Untuk membuat post baru pilih menu `New content` pada bagian `PUBLISH`
+<img src="https://raw.githubusercontent.com/adeliyay/bludit/master/Screenshot/27.PNG"></img>
 
+5. Pilih `Save` untuk mempublish post
+<img src="https://raw.githubusercontent.com/adeliyay/bludit/master/Screenshot/46.PNG"></img>
 
+6. Untuk *manage posts* pilih menu `Content` pada bagian `MANAGE`
+<img src="https://raw.githubusercontent.com/adeliyay/bludit/master/Screenshot/28.PNG"></img>
 
+## Pembahasan
+[`^ kembali ke atas ^`](#)
+
+**Kelebihan**
+- Menggunakan *flat-files* untuk penyimpanannya juga menggunakan format file JSON, sehingga tak perlu lagi melakukan install maupun konfigurasi database,
+- Ada fitur CLI Mode (Command Line Interface Mode) dimana pengguna dapat membuat, mengubah atau menghapus *pages* atau *posts* tanpa harus melalui tampilan web,
+- Web gratis dan *Open Source*,
+- Terdapat dokumentasi pemakaian yang lengkap,
+
+**Kekurangan**
+- UI kurang menarik karena memakai warna dan ikon yang monoton,
+- UI tidak dapat dapat membuat sendiri.
+
+**Aplikasi yang sama**
+
+## Referensi
+[`^ kembali ke atas ^`](#)
+
+[Install Bludit CMS On Ubuntu 18.04](https://websiteforstudents.com/install-bludit-cms-on-ubuntu-16-04-17-10-18-04-with-apache2-mariadb-php-7-2-and-lets-encrypt-ssl-tls/)
