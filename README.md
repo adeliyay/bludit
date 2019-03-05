@@ -15,6 +15,8 @@
 Bludit merupakan sebuah CMS (Content Management System) yang digunakan untuk membuat blog pribadi dalam waktu singkat, bebas biaya dan open source. Bludit menggunakan flat-files untuk menyimpan kiriman dan halaman, tanpa perlu menginstall atau konfigurasi basisdata. Bludit mendukung kode Markdown dan HTML untuk konten kiriman dan halaman yang akan diposting. 
 
 ## Instalasi 
+[`^ kembali ke atas ^`](#)
+
 **Kebutuhan Sistem :**
 -   Ubuntu Server 18.04
 -   Web Serverhttps://cdn.worldvectorlogo.com/logos/bludit.svg Apache version 2.4 atau lebih
@@ -45,9 +47,9 @@ Bludit merupakan sebuah CMS (Content Management System) yang digunakan untuk mem
   $ sudo systemctl stop apache2.service
   $ sudo systemctl start apache2.service
   $ sudo systemctl enable apache2.service
-  ```
+Tampilan *dashboard* admin  ```
    Untuk memastikan Apache2 telah berhasil di install, bukalah http://localhost:8888 . JIka berhasil akan menampilkan seperti gambar dibawah ini
-   
+   Tampilan *dashboard* admin
 5. Install PHP 7.2 dan modul lain yang diperlukan
   ```
   $ sudo apt-get install software-properties-commonhttps://cdn.worldvectorlogo.com/logos/bludit.svg
@@ -142,6 +144,8 @@ Untuk membuat konten baru, masuk ke halaman *dashboard* dengan cara klik `admin 
 
 
 ## Konfigurasi
+[`^ kembali ke atas ^`](#)
+
 - Konfigurasi Apache2
 `$ sudo nano /etc/apache2/sites-available/bludit.conf`
 	
@@ -178,11 +182,17 @@ Untuk membuat konten baru, masuk ke halaman *dashboard* dengan cara klik `admin 
 	$ sudo systemctl restart apache2.service
 	```
 ## Cara Pemakaian
+[`^ kembali ke atas ^`](#)
+
 1. Akses Bludit melalui localhost anda dengan masuk ke localhost:8888
 <img src="https://raw.githubusercontent.com/adeliyay/bludit/master/Screenshot/43.PNG"></img>
 
 2. Untuk membuat konten baru, masuk ke halaman *dashboard* dengan cara klik `admin panel` dibagian `Create your own content` kemudian login dengan akun anda.
 <img src="https://raw.githubusercontent.com/adeliyay/bludit/master/Screenshot/44.PNG"></img>
+
+3. Tampilan *dashboard* admin
 <img src="https://raw.githubusercontent.com/adeliyay/bludit/master/Screenshot/45.PNG"></img>
+
+
 
 
