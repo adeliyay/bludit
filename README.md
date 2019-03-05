@@ -43,9 +43,11 @@ Bludit merupakan sebuah CMS (Content Management System) yang digunakan untuk mem
   $ sudo systemctl stop apache2.service
   $ sudo systemctl start apache2.service
   $ sudo systemctl enable apache2.service
-Tampilan *dashboard* admin  ```
+  ```
+Tampilan *dashboard* admin  
    Untuk memastikan Apache2 telah berhasil di install, bukalah http://localhost:8888 . JIka berhasil akan menampilkan seperti gambar dibawah ini
    Tampilan *dashboard* admin
+   
 5. Install PHP 7.2 dan modul lain yang diperlukan
   ```Tampilan *dashboard* admin
   $ sudo apt-get install software-properties-commonhttps://cdn.worldvectorlogo.com/logos/bludit.svg
