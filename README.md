@@ -44,9 +44,8 @@ Bludit merupakan sebuah CMS (Content Management System) yang digunakan untuk mem
   $ sudo systemctl start apache2.service
   $ sudo systemctl enable apache2.service
   ```
-Tampilan *dashboard* admin  
    Untuk memastikan Apache2 telah berhasil di install, bukalah http://localhost:8888 . JIka berhasil akan menampilkan seperti gambar dibawah ini
-   Tampilan *dashboard* admin
+   <img src="https://raw.githubusercontent.com/adeliyay/bludit/master/Screenshot/39.PNG"></img>
    
 5. Install PHP 7.2 dan modul lain yang diperlukan
   ```Tampilan *dashboard* admin
@@ -69,7 +68,7 @@ Tampilan *dashboard* admin
   max_execution_time = 360
   date.timezone = America/Chicago
 ```
-   Untuk memastikan PHP 7.2 telah terkoneksi dengan Apache2, buatlah https://cdn.worldvectorlogo.com/logos/bludit.svgphpinfo.php  
+   Untuk memastikan PHP 7.2 telah terkoneksi dengan Apache2, buatlah  
   ```
   $sudo nano /var/www/html/phpinfo.php
   ```
@@ -84,6 +83,7 @@ Tampilan *dashboard* admin
   $ sudo systemctl restart apache2.service
   ```
    Kemudian bukalah http://localhost:8888/phpinfo.php maka akan muncul gambar seperti dibawah ini :
+   <img src="https://raw.githubusercontent.com/adeliyay/bludit/master/Screenshot/40.PNG"></img>
   
 7. Download dan ekstrak instalasi Bludit dan pindahkan ke root directory
   ```
