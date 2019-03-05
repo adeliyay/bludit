@@ -1,4 +1,4 @@
-https://cdn.worldvectorlogo.com/logos/bludit.svg<h1 align="center"><img src="https://raw.githubusercontent.com/adeliyay/bludit/master/Screenshot/logo.png" width="350" height="400"></h1>
+<h1 align="center"><img src="https://raw.githubusercontent.com/adeliyay/bludit/master/Screenshot/logo.png"></h1>
 
 [Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
 :---:|:---:|:---:|:---:|:---:|:---:
