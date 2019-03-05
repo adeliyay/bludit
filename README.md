@@ -121,7 +121,8 @@ Bludit merupakan sebuah CMS (Content Management System) yang digunakan untuk mem
             RewriteBase /
             RewriteCond %{REQUEST_FILENAME} !-f
             RewriteRule ^(.*) index.php [PT,L]
-    </Directory>
+Untuk membuat konten baru, masuk ke halaman *dashboard* dengan cara klik `admin panel` dibagian `Set up your new site` 
+<img src="https://raw.githubusercontent.com/pramesywaraj/bludit-asik/master/Screenshots/screenshot-localhost-2018.03.19-16-27-31.png"></img>    </Directory>
   </VirtualHost>
   ```
 10. Aktifkan Bludit Site dan Rewrite Module
@@ -178,10 +179,10 @@ Bludit merupakan sebuah CMS (Content Management System) yang digunakan untuk mem
 	```
 ## Cara Pemakaian
 1. Akses Bludit melalui localhost anda dengan masuk ke localhost:8888
+<img src="https://raw.githubusercontent.com/adeliyay/bludit/master/Screenshot/43.PNG"></img>
 
-2. Login dengan akun anda.
+2. Untuk membuat konten baru, masuk ke halaman *dashboard* dengan cara klik `admin panel` dibagian `Create your own content` kemudian login dengan akun anda.
 <img src="https://raw.githubusercontent.com/adeliyay/bludit/master/Screenshot/44.PNG"></img>
 <img src="https://raw.githubusercontent.com/adeliyay/bludit/master/Screenshot/45.PNG"></img>
 
-3. Untuk membuat konten baru, masuk ke halaman *dashboard* dengan cara klik `admin panel` dibagian `Set up your new site` 
 
