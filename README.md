@@ -30,7 +30,7 @@ Bludit merupakan sebuah CMS (Content Management System) yang digunakan untuk mem
 1. Install Virtual Machine (Virtual Box) dan Ubuntu Server di laptop.
 2. Buka Virtual Machine dan Klik New pada virtual machine lalu tambahkan ubuntu server.
    Klik Start dan jalankan Ubuntu server lalu add instalasi ubuntu server.
-   Klik Setting > Network > Advanced > Port Forwarding lalu atur port yang digunakan seperti gambar dibawah ini :
+   Klik Setting >Tampilan *dashboard* admin Network > Advanced > Port Forwarding lalu atur port yang digunakan seperti gambar dibawah ini :
    
 3. Login kedalam server menggunakan SSH. Untuk pengguna windows 10 bisa menggunakan aplikasi bash on ubuntu 
 
@@ -51,7 +51,7 @@ Tampilan *dashboard* admin  ```
    Untuk memastikan Apache2 telah berhasil di install, bukalah http://localhost:8888 . JIka berhasil akan menampilkan seperti gambar dibawah ini
    Tampilan *dashboard* admin
 5. Install PHP 7.2 dan modul lain yang diperlukan
-  ```
+  ```Tampilan *dashboard* admin
   $ sudo apt-get install software-properties-commonhttps://cdn.worldvectorlogo.com/logos/bludit.svg
   $ sudo add-apt-repository ppa:ondrej/php
   $ sudo apt update
