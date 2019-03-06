@@ -208,6 +208,11 @@ Bludit merupakan sebuah CMS (Content Management System) yang digunakan untuk mem
 - Ada fitur CLI Mode (Command Line Interface Mode) dimana pengguna dapat membuat, mengubah atau menghapus *pages* atau *posts* tanpa harus melalui tampilan web,
 - Web gratis dan *Open Source*,
 - Terdapat dokumentasi pemakaian yang lengkap,
+- Kostumisasi tema di blog/website 
+- Bisa menambah berbagai macam plugin
+- SEO friendly
+- Support Markdown
+- menjaga privacy dan keamanan dari data pengguna. Bluidit tidak mengambil data library eksternal, frameworks, dan resources lain
 
 **Kekurangan**
 - UI kurang menarik karena memakai warna dan ikon yang monoton,
