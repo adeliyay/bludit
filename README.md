@@ -102,7 +102,7 @@ Bludit merupakan sebuah CMS (Content Management System) yang digunakan untuk mem
   ```
   ```
   <VirtualHost *:80>
-     ServerAdmin admin@example.com
+     ServerAdmin localhost:8888
      DocumentRoot /var/www/html/bludit/
      ServerName localhost:8888
      ServerAlias localhost:8888
@@ -148,7 +148,7 @@ Bludit merupakan sebuah CMS (Content Management System) yang digunakan untuk mem
 	
 	```
 	<VirtualHost *:80>
-     		ServerAdmin admin@example.com
+     		ServerAdmin localhost:8888
      		DocumentRoot /var/www/html/bludit/
      		ServerName localhost:8888
      		ServerAlias localhost:8888
@@ -203,7 +203,8 @@ Bludit merupakan sebuah CMS (Content Management System) yang digunakan untuk mem
 [`^ kembali ke atas ^`](#)
 
 **Kelebihan**
-- Menggunakan *flat-files* untuk penyimpanannya juga menggunakan format file JSON, sehingga tak perlu lagi melakukan install maupun konfigurasi database,
+- Tidak perlu melakukan  melakukan install maupun konfigurasi database,
+- Menggunakan *flat-files* untuk penyimpanannya juga menggunakan format file JSON,
 - Ada fitur CLI Mode (Command Line Interface Mode) dimana pengguna dapat membuat, mengubah atau menghapus *pages* atau *posts* tanpa harus melalui tampilan web,
 - Web gratis dan *Open Source*,
 - Terdapat dokumentasi pemakaian yang lengkap,
@@ -213,6 +214,30 @@ Bludit merupakan sebuah CMS (Content Management System) yang digunakan untuk mem
 - UI tidak dapat dapat membuat sendiri.
 
 **Aplikasi yang sama**
+
+*Grav*
+Grav merupakan salah satu bentuk flat file CMS seperti bludit
+
+Fitur:
+1.	Markdown support
+2.	Mudah dalam menginstall
+3.	Grav mengubah konten menjadi caches sehingga mudah dalam pemrosesan
+4.	Tipe Konten dinamis. Grav memudahkan pengguna untuk kostumisasi halaman, termasuk konten modular. 
+5.	Multi-Language Support
+6.	Simple Backups dan Restore
+7.	Support image media processing seperti resize, crop, resample, dan menambahkan efek.
+8.	Bisa kostumisasi tema
+
+*Pico*
+	Pico merupakan flat file CMS yang cepat dan digunakan oleh para developer. Dalam menginstal pico, dibutuhkan technical skill lebih banyak dari sekedar mengupload file.
+
+Pico sangat simple. Dan bias digunakan dengan menggunakan file teks. Metadata yang digunakan adalah YAML.
+Fitur: 
+1.	Pico tidak menggunakan database, sehingga pemrosesan lebih cepat
+2.	Menggunakan Twig untuk formatting
+3.	Open source
+4.	Dapat mengedit website hanya dengan menggunakan teks file
+5.	Support markdown
 
 ## Referensi
 [`^ kembali ke atas ^`](#)
