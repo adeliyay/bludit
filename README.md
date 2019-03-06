@@ -215,7 +215,7 @@ Bludit merupakan sebuah CMS (Content Management System) yang digunakan untuk mem
 
 **Aplikasi yang sama**
 
-*Grav*
+**Grav**
 Grav merupakan salah satu bentuk flat file CMS seperti bludit
 
 Fitur:
@@ -228,7 +228,7 @@ Fitur:
 7.	Support image media processing seperti resize, crop, resample, dan menambahkan efek.
 8.	Bisa kostumisasi tema
 
-*Pico*
+**Pico**
 	Pico merupakan flat file CMS yang cepat dan digunakan oleh para developer. Dalam menginstal pico, dibutuhkan technical skill lebih banyak dari sekedar mengupload file.
 
 Pico sangat simple. Dan bias digunakan dengan menggunakan file teks. Metadata yang digunakan adalah YAML.
